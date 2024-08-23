@@ -14,9 +14,9 @@ This is a personal portfolio website developed to showcase my work, skills, and 
 This portfolio is a part of my journey into the fields of Data Analysis and Web Development. It serves as a central hub where you can learn more about my background, view my work, and contact me for potential opportunities. The design is clean and modern, with a focus on accessibility and ease of navigation.
 
 ## Features
-** Responsive Design: ** The portfolio is designed to be fully responsive, adapting to different screen sizes including mobile devices, tablets, and desktops.
-** Modern Aesthetics: ** Utilizes a combination of web-safe fonts and animations to create a visually appealing user experience.
-** Easy Navigation: ** A simple and intuitive navigation bar that includes links to my work, contact information, and curriculum.
+**Responsive Design:** The portfolio is designed to be fully responsive, adapting to different screen sizes including mobile devices, tablets, and desktops.
+**Modern Aesthetics:** Utilizes a combination of web-safe fonts and animations to create a visually appealing user experience.
+**Easy Navigation:** A simple and intuitive navigation bar that includes links to my work, contact information, and curriculum.
 
 ## Technologies Used
 **HTML5:** For structuring the content.
