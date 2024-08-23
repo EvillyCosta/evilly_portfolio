@@ -5,7 +5,7 @@
 
 ## Acesse o Portfólio
 
-[Link para o Portfolio](https://EvillyCosta.github.io/evilly_portfolio/)
+
 
 #Personal Portfolio
 This is a personal portfolio website developed to showcase my work, skills, and experience as a Systems Analysis and Development student. The portfolio is designed with HTML and CSS, and it is fully responsive to ensure an optimal viewing experience across different devices.
