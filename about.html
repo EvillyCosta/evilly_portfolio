@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evi->About</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            height: 100vh;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #c520ff;
+            height: 4em;
+        }
+
+        .container {
+            display: flex;
+            justify-content:right;
+            gap: 100px;
+            padding-right: 4em;
+            padding-top: 0.7em;
+        }
+
+        .item a{
+            text-decoration: none;
+            color: black;
+            font-size: xx-large;
+            /*mudar fonte*/
+        }
+
+        .who {
+            padding-right: 37rem;
+        }
+
+        #moldura {
+            height: 360px;
+            float: left;
+        }
+
+        p {
+            padding-top: 1em;
+            text-align: left;
+            width: 60%;
+            font-size: 30px;
+            /*mudar fonte*/
+        }
+
+        p > span {
+            font-weight: bold;
+            /*mudar fonte*/
+        }
+
+        /*arrumar o botao check cv*/
+        /*fazer painel de habilities*/
+        /*acrescentar efeitos de gradiente*/
+        /*aplicar responsividade*/
+
+    </style>
+</head>
+
+
+<body>
+    <section class="navbar">
+        <nav>
+            <div class="container">
+                <div class="item who"><a href="#">Who am I?</a></div>
+                <div class="item my work"><a href="#">my work</a></div>
+                <div class="item contact"><a href="#">contact me</a></div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="description">
+        <img id="moldura" src="./moldura.png" alt="moldura roxa com uma moça ao centro">
+        <p>
+            <span>Hi, I'm Evilly</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet pretium mauris.
+            Vivamus a augue nunc. Vestibulum luctus, odio sit amet faucibus varius, arcu velit molestie leo, et laoreet lorem mi id justo.
+            Vestibulum commodo dui quis velit pulvinar iaculis. Quisque eu imperdiet ipsum. Duis ac massa eget quam ullamcorper fermentum vel ut lectus.
+            Cras finibus erat diam, in convallis justo commodo quis. Aenean at leo vitae sem luctus aliquet sed mollis dolor. Morbi nec urna tincidunt,
+            suscipit risus a, cursus nibh. Mauris pellentesque eu felis nec rutrum. Suspendisse luctus consectetur nisl ut consectetur. Sed posuere a sapien a iaculis. 
+            Pellentesque semper scelerisque ante, ut lobortis purus pellentesque at. In sapien dui, pretium vitae orci vel, viverra dignissim sem.
+        </p>
+    </section>
+
+    <section class="habilities">
+        <div class="square"> <!-- colocar as img em png das ferramentas-->
+            <div class="button"> <a href="#">Check my CV</a></div>
+        </div>
+    </section>
+
+
+</body>
+</html>
