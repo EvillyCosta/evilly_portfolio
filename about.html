@@ -118,8 +118,29 @@
             background-color: #004aad ;
         }
 
+        .square {
+            background: linear-gradient(300deg, #cdffd8, #94b9ff);
+            background-size: 180% 180%;
+            animation: gradient-animation 5s ease infinite;
+        }
 
-        
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .navbar {
+            background: linear-gradient(300deg, #c520ff, #fafbff);
+            background-size: 180% 180%;
+            animation: gradient-animation 6s ease infinite;
+        }
 
         /*acrescentar efeitos de gradiente*/
         /*aplicar responsividade*/
