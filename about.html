@@ -6,14 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Evi->About</title>
 
@@ -65,7 +59,7 @@
         .p1 {
             padding-top: 1em;
             width: 85%;
-            font-size: 30px;
+            font-size: 25px;
             font-family: "Poppins", sans-serif;
             padding-left: 20px;
         }
@@ -86,7 +80,7 @@
         }
 
         .p2 {
-            margin-top: 380px;
+            margin-top: 40px;
         }
 
         h2 {
@@ -110,14 +104,14 @@
             font-family: "Bree Serif", serif;
         }
 
+        #logo {
+           height: 300px;
+        }
+
 
         /* efeitos e cores de fundo*/
         .item > a:hover {
             color: rgb(240, 198, 148);
-        }
-
-        p > a:hover {
-            background-color: #004aad ;
         }
 
         .square {
@@ -150,12 +144,594 @@
             }
         }
 
-        
+        /*responsividade*/
 
-        /*acrescentar efeitos de gradiente*/
-        /*aplicar responsividade*/
+        @media (max-width: 480px) {
+
+        .navbar {
+            width: 100%;
+            background-color: #c520ff;
+            height: auto; 
+        }
+
+        .container {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            gap: 0;
+        }
+
+        .who {
+            padding-right: 0; 
+            padding-left: 1em; 
+            font-size: 29px;
+            margin-bottom: 0.3em; 
+        }
+
+        .item {
+            padding-left: 1em; 
+        }
+
+        .item a {
+            font-size: 25px;
+        }
+
+        #moldura {
+            width: 100%; 
+            height: auto; 
+            display: block;
+            margin-left: 20px; 
+        }
+
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+            padding: 1em 0; 
+        }
+
+        .description {
+            width: 100%;
+            text-align: center;
+            padding: 1em;
+            font-size: 18px; 
+        }
+
+        .p1 {
+            font-size: 18px; 
+            width: 100%; 
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        .habilities {
+            width: 100%;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .square {
+            width: 90%;
+            height: auto;
+            margin: 2em auto; 
+            padding: 20px;
+            box-sizing: border-box; 
+        }
+
+        h2 {
+            font-size: 22px; 
+            padding-left: 0;
+            margin-bottom: 0.5em;
+        }
+
+        #logo {
+            height: 170px; 
+            width: auto; 
+            margin: 0 auto; 
+        }
+
+        .p2 {
+            margin-top: 1em;
+            text-align: center; 
+        }
+
+        p > a {
+            font-size: 16px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            display: inline-block;
+            margin: 0 auto; 
+        }
+
+    }
+
+        @media (min-width: 481px) and (max-width: 767px) {
+ 
+            .navbar {
+                width: 100%;
+                background-color: #c520ff;
+                height: auto; 
+            }
+
+            .container {
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+                gap: 0;
+            }
+
+            .who {
+                padding-right: 0; 
+                padding-left: 1em; 
+                font-size: 29px;
+                margin-bottom: 0.3em; 
+            }
+
+            .item {
+                padding-left: 1em; 
+            }
+
+            .item a {
+                font-size: 25px;
+            }
+
+            #moldura {
+                width: 80%;
+                max-width: 300px; 
+                height: auto; 
+                display: block;
+                margin: 0 auto; 
+            }
+
+            .wrapper {
+                flex-direction: column;
+                align-items: center;
+                padding: 1em 0; 
+            }
+
+            .description {
+                width: 100%;
+                text-align: center;
+                padding: 1em;
+                font-size: 18px; 
+            }
+
+            .p1 {
+                font-size: 20px; 
+                width: 100%; 
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+
+            .habilities {
+                width: 100%;
+                padding: 1em;
+                text-align: center;
+            }
+
+            .square {
+                width: 90%;
+                height: auto;
+                margin: 2em auto; 
+                padding: 10px;
+                box-sizing: border-box; 
+            }
+
+            h2 {
+                font-size: 29px; 
+                padding-left: 0;
+                margin-bottom: 0.5em;
+            }
+
+            #logo {
+                height: 200px; 
+                width: auto; 
+                margin: 0 auto; 
+            }
+
+            .p2 {
+                margin-top: 1em;
+                text-align: center; 
+            }
+
+            p > a {
+                font-size: 16px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                display: inline-block;
+                margin: 0 auto; 
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+
+            .navbar {
+                height: auto; 
+            }
+
+            .container {
+                align-items: center; 
+                gap: 2em; 
+            }
+
+            .who {
+                padding-right: 0;
+                padding-left: 0; 
+                font-size: 32px; 
+                margin-bottom: 0.5em; 
+                margin-right: 270px ;
+            }
+
+            .item a {
+                font-size: 27px; 
+            }
+
+            #moldura {
+                width: 90%; 
+                max-width: 400px; 
+                height: auto; 
+                display: block;
+                margin: 1em auto; 
+            }
+
+            .wrapper {
+                flex-direction: column; 
+                align-items: center; 
+                padding: 1em 0; 
+            }
+
+            .description {
+                width: 90%; 
+                text-align: center; 
+                padding: 1em;
+                font-size: 26px; 
+            }
+
+            .p1 {
+                font-size: 20px;
+                width: 100%; 
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .habilities {
+                width: 90%; 
+                padding: 1em 0; 
+                text-align: center;
+            }
+
+            .square {
+                width: 70%; 
+                height: auto;
+                margin: 2em auto; 
+                padding: 20px;
+                box-sizing: border-box; 
+            }
+
+            h2 {
+                font-size: 33px; 
+                margin-bottom: 1em;
+            }
+
+            .p2 {
+                margin-top: 1em;
+                text-align:center;
+                margin-right:60px;
+            }
+
+            #logo {
+                height: 270px; 
+                width: auto; 
+                margin: 0 auto; 
+            }
+
+            p > a {
+                font-size: 19px; 
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+
+            p > span {
+                font-size: 23px;
+            }
+        }
+
+
+        @media (min-width: 1025px) and (max-width: 1200px) {
+
+            .navbar {
+                height: auto; 
+            }
+
+            .container {
+                align-items: center; 
+                gap: 4em; 
+            }
+
+            .who {
+                padding-right: 0;
+                padding-left: 0; 
+                font-size: 32px; 
+                margin-bottom: 0.5em; 
+                margin-right: 400px ;
+            }
+
+            .item a {
+                font-size: 29px; 
+            }
+
+            #moldura {
+                width: 90%; 
+                max-width: 350px; 
+                height: auto; 
+                display: block;
+                margin: 1em auto; 
+            }
+
+            .wrapper {
+                flex-direction: row; 
+                padding: 1em 0; 
+            }
+
+            .description {
+                width: 90%; 
+                text-align: center; 
+                padding: 1em;
+                font-size: 21px 
+            }
+
+            .p1 {
+                font-size: 23px;
+                width: 130%; 
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .habilities {
+                width: 100%; 
+                padding: 1em 0; 
+                text-align: center;
+            }
+
+            .square {
+                width: 70%; 
+                height: auto;
+                margin: 2em auto; 
+                padding: 20px;
+                box-sizing: border-box; 
+            }
+
+            h2 {
+                font-size: 34px; 
+                margin-bottom: 1em;
+                margin-top: 0;
+            }
+
+            .p2 {
+                margin-top: 1em;
+                text-align:center;
+            }
+
+            #logo {
+                height: 250px; 
+                width: auto; 
+                margin: 0 auto; 
+            }
+
+            p > a {
+                font-size: 19px; 
+                padding-top: 8px;
+                padding-bottom: 8px;
+                margin-left:20px;
+            }
+
+            p > span {
+                font-size: 23px;
+            }
+
+        }
+
+        @media (min-width: 1200px) and (max-width: 1500px) {
+
+            .navbar {
+                height: auto; 
+            }
+
+            .container {
+                align-items: center; 
+                gap: 5em; 
+            }
+
+            .who {
+                padding-right: 0;
+                padding-left: 0; 
+                font-size: 32px; 
+                margin-bottom: 0.2em; 
+                margin-right: 400px ;
+            }
+
+            .item a {
+                font-size: 29px; 
+            }
+            #moldura {
+                width: 90%; 
+                max-width: 350px; 
+                height: auto; 
+                display: block;
+                margin: 1em auto; 
+            }
+
+            .wrapper {
+                flex-direction: row; 
+                padding: 1em 0; 
+            }
+
+            .description {
+                width: 90%; 
+                text-align: center; 
+                padding: 1em;
+                font-size: 21px 
+            }
+
+            .p1 {
+                font-size: 23px;
+                width: 130%; 
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .habilities {
+                width: 100%; 
+                padding: 1em 0; 
+                text-align: center;
+            }
+
+            .square {
+                width: 60%; 
+                height: auto;
+                margin: 2em auto; 
+                padding-top: 20px;
+                padding-bottom: 10px;
+                padding-left: 0;
+                padding-right: 0;
+                box-sizing: border-box; 
+            }
+
+            h2 {
+                font-size: 34px; 
+                margin-bottom: 1em;
+                margin-top: 0;
+                margin-right: 10px;
+            }
+
+            .p2 {
+                margin-top: 3em;
+                text-align:center;
+            }
+
+            #logo {
+                height: 270px; 
+                width: auto; 
+                margin: 0 auto; 
+            }
+
+            p > a {
+                font-size: 19px; 
+                padding-top: 8px;
+                padding-bottom: 8px;
+                margin-left:20px;
+            }
+
+            p > span {
+                font-size: 23px;
+            }
+
+        }
+
+        @media (min-width: 1500px) {
+
+            .navbar {
+                height: 65px; 
+            }
+
+            .container {
+                align-items: center; 
+                justify-content: center;
+                gap: 5em; 
+            }
+
+            .who {
+                padding-right: 0;
+                padding-left: 50px; 
+                font-size: 32px; 
+                margin-bottom: 0.2em; 
+                margin-right: 700px ;
+            }
+
+            .item a {
+                font-size: 29px;
+            }
+            #moldura {
+                width: 90%; 
+                max-width: 350px; 
+                height: auto; 
+                display: block;
+                margin: 1em auto; 
+            }
+
+            .wrapper {
+                flex-direction: row; 
+                padding: 1em 0; 
+            }
+
+            .description {
+                width: 90%; 
+                text-align: center; 
+                padding: 1em;
+                font-size: 21px 
+            }
+
+            .p1 {
+                font-size: 23px;
+                width: 130%; 
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .habilities {
+                width: 100%; 
+                padding: 1em 0; 
+                text-align: center;
+            }
+
+            .square {
+                width: 50%; 
+                height: auto;
+                margin: 2em auto; 
+                padding-top: 20px;
+                padding-bottom: 10px;
+                padding-left: 0;
+                padding-right: 0;
+                box-sizing: border-box; 
+            }
+
+            h2 {
+                font-size: 34px; 
+                margin-bottom: 1em;
+                margin-top: 0;
+                margin-right: 10px;
+            }
+
+            .p2 {
+                margin-top: 3em;
+                text-align:center;
+            }
+
+            #logo {
+                height: 270px; 
+                width: auto; 
+                margin: 0 auto; 
+            }
+
+            p > a {
+                font-size: 19px; 
+                padding-top: 8px;
+                padding-bottom: 8px;
+                margin-left:20px;
+            }
+
+            p > span {
+                font-size: 25px;
+            }
+            
+
+        }
 
     </style>
+
 </head>
 
 
@@ -163,9 +739,9 @@
     <section class="navbar">
         <nav>
             <div class="container">
-                <div class="item who">Who am I?</div>
-                <div class="item my work"><a href="#">my work</a></div>
-                <div class="item contact"><a href="#">contact me</a></div>
+                <div class="item who">Quem sou eu?</div>
+                <div class="item my work"><a href="#">trabalhos</a></div>
+                <div class="item contact"><a href="#">contato</a></div>
             </div>
         </nav>
     </section>
@@ -174,17 +750,19 @@
         <section class="description">
             <img id="moldura" src="./moldura.png" alt="moldura roxa com uma moça ao centro">
             <p class="p1">
-                <span>Hi, I'm Evilly</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet pretium mauris.
-                Vivamus a augue nunc. Vestibulum luctus, odio sit amet faucibus varius, arcu velit molestie leo, et laoreet lorem mi id justo.
-                Vestibulum commodo dui quis velit pulvinar iaculis. Quisque eu imperdiet ipsum. Duis ac massa eget quam ullamcorper fermentum vel ut lectus.
-                Cras finibus erat diam, in convallis justo commodo quis. 
+                <span>Olá, eu sou a Evilly</span><br> Tenho 25 anos e atualmente curso Análise de Sistemas.
+                Meu primeiro contato com programação foi através do Arduino, onde conheci a linguagem C++. Desde então,
+                me apaixonei pelo mundo da programação. Agora, estou me aprofundando em estudos de 
+                Dados com conceitos de <i>Business Intelligence</i> e <i>ETL</i>,  e também explorando o desenvolvimento Web com <i>HTML</i> , <i>CSS</i> e <i>JavaScript</i>. 
+                Além dos estudos, sou apaixonada por games e animes! E tenho um gatinho de 8 anos chamado Geovanne que é muito especial na minha vida. c:
             </p>
         </section>
 
         <section class="habilities">
             <div class="square"> <!-- colocar as img em png das ferramentas-->
                 <h2>Technical Habilities</h2>
-                <div class="button"> <p class="p2"><a href="#">Check my CV</a></p></div>
+                <img id="logo" src="./linguagens.png" alt="linguagens de programação">
+                <div><p class="p2"><a href="#">Confira meu CV</a></p></div>
             </div>
         </section>
     </div>
