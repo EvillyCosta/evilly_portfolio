@@ -34,7 +34,7 @@
         }
 
         .who {
-            padding-right: 37rem;
+            padding-right: 52rem;
         }
 
         #moldura {
@@ -42,10 +42,14 @@
             float: left;
         }
 
-        p {
+        .wrapper{
+            display: flex;
+            width: 90%;
+        }
+
+        .p1 {
             padding-top: 1em;
-            text-align: left;
-            width: 60%;
+            width: 80%;
             font-size: 30px;
             /*mudar fonte*/
         }
@@ -55,8 +59,38 @@
             /*mudar fonte*/
         }
 
-        /*arrumar o botao check cv*/
-        /*fazer painel de habilities*/
+        .square {
+            background-color: #94b9ff;
+            height: 500px;
+            width: 370px;
+            border-radius: 23px;
+            float: right;
+            margin-top: 50px;
+            
+        }
+
+        .p2 {
+            margin-top: 405px;
+        }
+
+        h2 {
+            padding-left: 80px;
+        }
+
+        p > a {
+            background-color: #c520ff;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            margin-left: 90px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 23px;
+            /*mudar fonte*/
+        }
+
         /*acrescentar efeitos de gradiente*/
         /*aplicar responsividade*/
 
@@ -75,24 +109,26 @@
         </nav>
     </section>
 
-    <section class="description">
-        <img id="moldura" src="./moldura.png" alt="moldura roxa com uma moça ao centro">
-        <p>
-            <span>Hi, I'm Evilly</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet pretium mauris.
-            Vivamus a augue nunc. Vestibulum luctus, odio sit amet faucibus varius, arcu velit molestie leo, et laoreet lorem mi id justo.
-            Vestibulum commodo dui quis velit pulvinar iaculis. Quisque eu imperdiet ipsum. Duis ac massa eget quam ullamcorper fermentum vel ut lectus.
-            Cras finibus erat diam, in convallis justo commodo quis. Aenean at leo vitae sem luctus aliquet sed mollis dolor. Morbi nec urna tincidunt,
-            suscipit risus a, cursus nibh. Mauris pellentesque eu felis nec rutrum. Suspendisse luctus consectetur nisl ut consectetur. Sed posuere a sapien a iaculis. 
-            Pellentesque semper scelerisque ante, ut lobortis purus pellentesque at. In sapien dui, pretium vitae orci vel, viverra dignissim sem.
-        </p>
-    </section>
+    <div class="wrapper">
+        <section class="description">
+            <img id="moldura" src="./moldura.png" alt="moldura roxa com uma moça ao centro">
+            <p class="p1">
+                <span>Hi, I'm Evilly</span><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet pretium mauris.
+                Vivamus a augue nunc. Vestibulum luctus, odio sit amet faucibus varius, arcu velit molestie leo, et laoreet lorem mi id justo.
+                Vestibulum commodo dui quis velit pulvinar iaculis. Quisque eu imperdiet ipsum. Duis ac massa eget quam ullamcorper fermentum vel ut lectus.
+                Cras finibus erat diam, in convallis justo commodo quis. Aenean at leo vitae sem luctus aliquet sed mollis dolor. Morbi nec urna tincidunt,
+                suscipit risus a, cursus nibh. Mauris pellentesque eu felis nec rutrum. Suspendisse luctus consectetur nisl ut consectetur. Sed posuere a sapien a iaculis. 
+                Pellentesque semper scelerisque ante, ut lobortis purus pellentesque at. In sapien dui, pretium vitae orci vel, viverra dignissim sem.
+            </p>
+        </section>
 
-    <section class="habilities">
-        <div class="square"> <!-- colocar as img em png das ferramentas-->
-            <div class="button"> <a href="#">Check my CV</a></div>
-        </div>
-    </section>
-
+        <section class="habilities">
+            <div class="square"> <!-- colocar as img em png das ferramentas-->
+                <h2>Technical Habilities</h2>
+                <div class="button"> <p class="p2"><a href="#">Check my CV</a></p></div>
+            </div>
+        </section>
+    </div>
 
 </body>
 </html>
