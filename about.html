@@ -144,7 +144,7 @@
 
         /*responsividade*/
 
-        @media (max-width: 480px) {
+        @media (min-width: 480px) {
 
         .navbar {
             width: 100%;
@@ -178,7 +178,7 @@
             width: 100%; 
             height: auto; 
             display: block;
-            margin-left: 20px; 
+            margin-left: 20px;
         }
 
         .wrapper {
@@ -195,7 +195,7 @@
         }
 
         .p1 {
-            font-size: 18px; 
+            font-size: 21px; 
             width: 100%; 
             padding-left: 1em;
             padding-right: 1em;
@@ -208,7 +208,7 @@
         }
 
         .square {
-            width: 90%;
+            width: 80%;
             height: auto;
             margin: 2em auto; 
             padding: 20px;
@@ -216,13 +216,13 @@
         }
 
         h2 {
-            font-size: 22px; 
+            font-size: 33px; 
             padding-left: 0;
             margin-bottom: 0.5em;
         }
 
         #logo {
-            height: 170px; 
+            height: auto; 
             width: auto; 
             margin: 0 auto; 
         }
@@ -234,17 +234,21 @@
 
         p > a {
             font-size: 16px;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
             padding-top: 6px;
             padding-bottom: 6px;
             display: inline-block;
             margin: 0 auto; 
         }
 
+        p > span {
+            font-size: 23px;
+        }
+
     }
 
-        @media (min-width: 481px) and (max-width: 767px) {
+        @media (min-width: 767px) {
  
             .navbar {
                 width: 100%;
@@ -296,10 +300,14 @@
             }
 
             .p1 {
-                font-size: 20px; 
+                font-size: 22px; 
                 width: 100%; 
                 padding-left: 1em;
                 padding-right: 1em;
+            }
+
+            p > span {
+                font-size: 25px;
             }
 
             .habilities {
@@ -309,7 +317,7 @@
             }
 
             .square {
-                width: 90%;
+                width: 80%;
                 height: auto;
                 margin: 2em auto; 
                 padding: 10px;
@@ -317,13 +325,13 @@
             }
 
             h2 {
-                font-size: 29px; 
+                font-size: 39px; 
                 padding-left: 0;
                 margin-bottom: 0.5em;
             }
 
             #logo {
-                height: 200px; 
+                height: auto; 
                 width: auto; 
                 margin: 0 auto; 
             }
@@ -335,8 +343,8 @@
 
             p > a {
                 font-size: 16px;
-                padding-left: 30px;
-                padding-right: 30px;
+                padding-left: 50px;
+                padding-right: 50px;
                 padding-top: 6px;
                 padding-bottom: 6px;
                 display: inline-block;
@@ -344,23 +352,25 @@
             }
         }
 
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media (min-width: 992px) {
 
             .navbar {
                 height: auto; 
             }
 
             .container {
+                flex-direction: row;
                 align-items: center; 
                 gap: 2em; 
             }
 
             .who {
                 padding-right: 0;
-                padding-left: 0; 
                 font-size: 32px; 
                 margin-bottom: 0.5em; 
-                margin-right: 270px ;
+                margin-right: 270px;
+                margin-left: 100px;
+
             }
 
             .item a {
@@ -389,7 +399,7 @@
             }
 
             .p1 {
-                font-size: 20px;
+                font-size: 23px;
                 width: 100%; 
                 padding-left: 0;
                 padding-right: 0;
@@ -402,7 +412,7 @@
             }
 
             .square {
-                width: 70%; 
+                width: 80%; 
                 height: auto;
                 margin: 2em auto; 
                 padding: 20px;
@@ -410,7 +420,7 @@
             }
 
             h2 {
-                font-size: 33px; 
+                font-size: 43px; 
                 margin-bottom: 1em;
             }
 
@@ -421,7 +431,7 @@
             }
 
             #logo {
-                height: 270px; 
+                height: auto; 
                 width: auto; 
                 margin: 0 auto; 
             }
@@ -430,15 +440,16 @@
                 font-size: 19px; 
                 padding-top: 8px;
                 padding-bottom: 8px;
+                margin-left: 40px;
             }
 
             p > span {
-                font-size: 23px;
+                font-size: 25px;
             }
         }
 
 
-        @media (min-width: 1025px) and (max-width: 1200px) {
+        @media (min-width: 1200px) {
 
             .navbar {
                 height: auto; 
@@ -482,7 +493,7 @@
             }
 
             .p1 {
-                font-size: 23px;
+                font-size: 25px;
                 width: 130%; 
                 padding-left: 0;
                 padding-right: 0;
@@ -527,36 +538,45 @@
             }
 
             p > span {
-                font-size: 23px;
+                font-size: 25px;
             }
 
         }
 
-        @media (min-width: 1200px) and (max-width: 1500px) {
+        @media (min-width: 1400px)  {
 
             .navbar {
-                height: auto; 
+                height: auto;
             }
 
             .container {
-                align-items: center; 
-                gap: 5em; 
+                display: flex; 
+                align-items: center;
+                justify-content: space-around;
+                gap: 10em;
             }
 
             .who {
                 padding-right: 0;
-                padding-left: 0; 
-                font-size: 32px; 
-                margin-bottom: 0.2em; 
-                margin-right: 400px ;
+                padding-left: 0;
+                font-size: 32px;
+                margin-bottom: 0.2em;
+            }
+
+            .item {
+                display: flex;
+                align-items: center;
             }
 
             .item a {
-                font-size: 29px; 
+                font-size: 29px;
+                padding-left: 80px;
+                text-align: right; /* Alinha o texto dentro do link à direita */
             }
+
             #moldura {
-                width: 90%; 
-                max-width: 350px; 
+                width: 100%; 
+                max-width: 550px; 
                 height: auto; 
                 display: block;
                 margin: 1em auto; 
@@ -568,14 +588,14 @@
             }
 
             .description {
-                width: 90%; 
+                width: 100%; 
                 text-align: center; 
                 padding: 1em;
                 font-size: 21px 
             }
 
             .p1 {
-                font-size: 23px;
+                font-size: 27px;
                 width: 130%; 
                 padding-left: 0;
                 padding-right: 0;
@@ -599,135 +619,38 @@
             }
 
             h2 {
-                font-size: 34px; 
+                font-size: 45px; 
                 margin-bottom: 1em;
                 margin-top: 0;
                 margin-right: 10px;
             }
 
             .p2 {
-                margin-top: 3em;
+                margin-top: 8em;
                 text-align:center;
             }
 
             #logo {
-                height: 270px; 
-                width: auto; 
-                margin: 0 auto; 
-            }
-
-            p > a {
-                font-size: 19px; 
-                padding-top: 8px;
-                padding-bottom: 8px;
-                margin-left:20px;
-            }
-
-            p > span {
-                font-size: 23px;
-            }
-
-        }
-
-        @media (min-width: 1500px) {
-
-            .navbar {
-                height: 65px; 
-            }
-
-            .container {
-                align-items: center; 
-                justify-content: center;
-                gap: 5em; 
-            }
-
-            .who {
-                padding-right: 0;
-                padding-left: 50px; 
-                font-size: 32px; 
-                margin-bottom: 0.2em; 
-                margin-right: 600px ;
-            }
-
-            .item a {
-                font-size: 29px;
-                margin-right: 40px;
-            }
-            #moldura {
-                width: 90%; 
-                max-width: 350px; 
                 height: auto; 
-                display: block;
-                margin: 1em auto; 
-            }
-
-            .wrapper {
-                flex-direction: row; 
-                padding: 1em 0; 
-            }
-
-            .description {
-                width: 90%; 
-                text-align: center; 
-                padding: 1em;
-                font-size: 21px 
-            }
-
-            .p1 {
-                font-size: 23px;
-                width: 130%; 
-                padding-left: 0;
-                padding-right: 0;
-            }
-
-            .habilities {
-                width: 100%; 
-                padding: 1em 0; 
-                text-align: center;
-            }
-
-            .square {
-                width: 50%; 
-                height: auto;
-                margin: 2em auto; 
-                padding-top: 20px;
-                padding-bottom: 10px;
-                padding-left: 0;
-                padding-right: 0;
-                box-sizing: border-box; 
-            }
-
-            h2 {
-                font-size: 34px; 
-                margin-bottom: 1em;
-                margin-top: 0;
-                margin-right: 10px;
-            }
-
-            .p2 {
-                margin-top: 3em;
-                text-align:center;
-            }
-
-            #logo {
-                height: 270px; 
                 width: auto; 
                 margin: 0 auto; 
             }
 
             p > a {
                 font-size: 19px; 
-                padding-top: 8px;
-                padding-bottom: 8px;
-                margin-left:20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 60px;
+                padding-right: 60px;
+                margin-left:60px;
             }
 
             p > span {
-                font-size: 25px;
+                font-size: 28px;
             }
-            
 
         }
+
 
     </style>
 
