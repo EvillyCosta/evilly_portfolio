@@ -1,0 +1,7 @@
+Pendencias do Portfolio
+
+Correções:
+- Aba Sobre -> acrescentar homepage na navbar e remover o "Quem sou eu" para uma melhor posição;
+organizar painel de habilidades para não vazar do square.
+
+- Aba Contato -> alinhar texto das redes sociais; ver pq o zoom deixa a tela estranha. 
