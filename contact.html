@@ -117,7 +117,7 @@
         #linkedin, #email, #whats {
             background: linear-gradient(300deg, #8c52ff, #1bdaff);
             background-size: 180% 180%;
-            animation: gradient-animation 18s ease infinite;
+            animation: gradient-animation 10s ease infinite;
         }
 
 
@@ -132,6 +132,101 @@
                 background-position: 0% 50%;
             }
         }
+
+        /* Responsividade */
+        @media (min-width: 300px) {
+            .item > a {
+                font-size: 1.1em;
+            }
+            .logos {
+                flex-direction: column;
+                gap: 20px;
+                
+            }
+            .redes {
+                flex-direction: row;
+                gap: 5px;
+                font-size: 1.3em;
+            }
+            #linkedin, #email, #whats {
+                width: 80px;
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+
+        @media (min-width: 767px) {
+
+            body {
+                padding-bottom: 50px;
+            }
+            .item > a {
+                font-size: 1.2em;
+            }
+            .logos {
+                flex-direction: row;
+                gap: 30px;
+            }
+            .redes {
+                flex-direction: row;
+                font-size: 1.6em;
+            }
+            #linkedin, #email, #whats {
+                padding: 18px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .item > a {
+                font-size: 1.3em;
+            }
+            .logos {
+                gap: 40px;
+            }
+            .redes {
+                font-size: 1.4em;
+            }
+            #linkedin, #email, #whats {
+                padding: 20px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .item > a {
+                font-size: 1.4em;
+            }
+            .logos {
+                gap: 50px;
+            }
+            .redes {
+                font-size: 1.6em;
+            }
+        
+            #linkedin, #email, #whats {
+                padding: 22px;
+            }
+
+        }
+
+        @media (min-width: 1400px) {
+            .item > a {
+                font-size: 1.5em;
+            }
+            .logos {
+                gap: 60px;
+            }
+            .redes {
+                font-size: 2em;
+            }
+            #linkedin, #email, #whats {
+                padding: 24px;
+            }
+        }
+
+
 
     </style>
 </head>
@@ -149,9 +244,9 @@
         <h2><b>Como você prefere entrar em contato?</b></h2>
 
         <div class="logos">
-            <div><a href="#"><img id="linkedin" src="./linkedin.png" alt="logo do linkedin"></a></div>
-            <div><a href="#"><img id="email" src="./email.png" alt="logo de email"></a></div>
-            <div><a href="#"><img id="whats" src="./whats.png" alt="logo do whatsapp"></a></div>
+            <div><a href="#"><img id="linkedin" src="./linkedin.png" alt=""></a></div>
+            <div><a href="#"><img id="email" src="./email.png" alt=""></a></div>
+            <div><a href="#"><img id="whats" src="./whats.png" alt=""></a></div>
         </div>
 
         <div class="redes">
