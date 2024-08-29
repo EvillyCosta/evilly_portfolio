@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Evi->Contact</title>
+    <style>
+
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: blueviolet;
+        }
+
+        nav {
+            background-color: #600070;
+            height: 50px;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .item {
+            padding-top: 10px;
+        }
+
+        .item > a:hover {
+            color: aqua;
+        }
+
+        .item > a {
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            color: white;
+            font-size: 1.3em;
+            text-shadow: 2px 2px 8px black;
+        }
+
+        section {
+            width: 80%;
+            margin-left: 10%;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.4em;
+            font-family: "Open Sans", sans-serif;
+            color: white;
+            text-shadow: 2px 2px 8px black;
+            padding-top: 40px;
+        }
+
+        .logos {
+           display: flex;
+           align-items: center;
+           justify-content: space-around;
+           margin-top: 60px;
+        }
+        #linkedin {
+            height: 70px;
+            background-color: #d0eeff;
+            padding: 20px 39px;
+            border-radius: 20px;
+            border: solid #600070 2px;
+        }
+        #email {
+            height: 60px;
+            width: 90px;
+            background-color: #d0eeff;
+            padding: 26px 34px;
+            border-radius: 20px;
+            border: solid #600070 2px;
+
+        }
+        #whats {
+            height: 75px;
+            background-color: #d0eeff;
+            padding: 20px 39px;
+            border-radius: 20px;
+            border: solid #600070 2px;
+        }
+
+        .redes {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+            font-family: "Bree Serif", serif;
+            font-size: 2em;
+            text-shadow: 2px 2px 8px black;
+        }
+        div > p {
+            margin-top: 20px; 
+        }
+
+        #app {
+            padding-left: 40px;
+        }
+        #mail {
+            padding-left: 40px;
+        }
+
+        .background {
+            background: linear-gradient(300deg, #004aad, #ff52e9);
+            background-size: 180% 180%;
+            animation: gradient-animation 18s ease infinite;
+        }
+
+        #linkedin, #email, #whats {
+            background: linear-gradient(300deg, #8c52ff, #1bdaff);
+            background-size: 180% 180%;
+            animation: gradient-animation 18s ease infinite;
+        }
+
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+    </style>
+</head>
+
+<body class="background">
+    <nav>
+        <div class="container">
+            <div class="item trabalhos"> <a href="#">trabalhos</a></div>
+            <div class="item homepage"> <a href="./index.html">homepage</a></div>
+            <div class="item sobre"> <a href="./about.html">sobre</a></div>
+        </div>
+    </nav>
+
+    <section >
+        <h2><b>Como você prefere entrar em contato?</b></h2>
+
+        <div class="logos">
+            <div><a href="#"><img id="linkedin" src="./linkedin.png" alt="logo do linkedin"></a></div>
+            <div><a href="#"><img id="email" src="./email.png" alt="logo de email"></a></div>
+            <div><a href="#"><img id="whats" src="./whats.png" alt="logo do whatsapp"></a></div>
+        </div>
+
+        <div class="redes">
+            <div><p id="in">LinkedIn</p></div>
+            <div><p id="mail">E-mail</p></div>
+            <div><p id="app">WhatsApp</p></div>
+        </div>
+    </section>
+    
+</body>
+</html>
