@@ -37,12 +37,6 @@
             font-family: "Montserrat", sans-serif;
         }
 
-        .who {
-            padding-right: 47rem;
-            font-family: "Poetsen One", sans-serif;
-            font-size: 30px;
-        }
-
         #moldura {
             height: 360px;
             float: left;
@@ -142,6 +136,14 @@
             }
         }
 
+        p > a {
+            transition: transform 0.3s ease; 
+        }
+
+        p > a:hover {
+            transform: scale(1.2); 
+        }
+
         /*responsividade*/
 
         @media (min-width: 300px) {
@@ -157,13 +159,6 @@
             align-items: center;
             padding: 0;
             gap: 0;
-        }
-
-        .who {
-            padding-right: 0; 
-            padding-left: 1em; 
-            font-size: 29px;
-            margin-bottom: 0.3em; 
         }
 
         .item {
@@ -208,10 +203,9 @@
         }
 
         .square {
-            width: 80%;
+            width: 70%;
             height: auto;
-            margin: 2em auto; 
-            padding: 20px;
+            margin-right: 35px; 
             box-sizing: border-box; 
         }
 
@@ -261,13 +255,6 @@
                 align-items: center;
                 padding: 0;
                 gap: 0;
-            }
-
-            .who {
-                padding-right: 0; 
-                padding-left: 1em; 
-                font-size: 29px;
-                margin-bottom: 0.3em; 
             }
 
             .item {
@@ -361,16 +348,8 @@
             .container {
                 flex-direction: row;
                 align-items: center; 
+                justify-content: space-around;
                 gap: 2em; 
-            }
-
-            .who {
-                padding-right: 0;
-                font-size: 32px; 
-                margin-bottom: 0.5em; 
-                margin-right: 270px;
-                margin-left: 100px;
-
             }
 
             .item a {
@@ -458,14 +437,6 @@
             .container {
                 align-items: center; 
                 gap: 4em; 
-            }
-
-            .who {
-                padding-right: 0;
-                padding-left: 0; 
-                font-size: 32px; 
-                margin-bottom: 0.5em; 
-                margin-right: 400px ;
             }
 
             .item a {
@@ -556,13 +527,6 @@
                 gap: 10em;
             }
 
-            .who {
-                padding-right: 0;
-                padding-left: 0;
-                font-size: 32px;
-                margin-bottom: 0.2em;
-            }
-
             .item {
                 display: flex;
                 align-items: center;
@@ -571,7 +535,7 @@
             .item a {
                 font-size: 29px;
                 padding-left: 80px;
-                text-align: right; /* Alinha o texto dentro do link à direita */
+                text-align: right; 
             }
 
             #moldura {
@@ -632,7 +596,7 @@
 
             #logo {
                 height: auto; 
-                width: auto; 
+                width: 350px; 
                 margin: 0 auto; 
             }
 
@@ -661,7 +625,7 @@
     <section class="navbar">
         <nav>
             <div class="container">
-                <div class="item who">Quem sou eu?</div>
+                <div class="item home"><a href="./index.html">homepage</a></div>
                 <div class="item my work"><a href="#">trabalhos</a></div>
                 <div class="item contact"><a href="./contact.html">contato</a></div>
             </div>
@@ -670,7 +634,7 @@
 
     <div class="wrapper">
         <section class="description">
-            <img id="moldura" src="./moldura.png" alt="moldura roxa com uma moça ao centro">
+            <img id="moldura" src="./assets/moldura.png" alt="moldura roxa com uma moça ao centro">
             <p class="p1">
                 <span>Olá, eu sou a Evilly</span><br> Tenho 25 anos e atualmente curso Análise de Sistemas.
                 Meu primeiro contato com programação foi através do Arduino, onde conheci a linguagem C++. Desde então,
@@ -682,8 +646,8 @@
 
         <section class="habilities">
             <div class="square"> <!-- colocar as img em png das ferramentas-->
-                <h2>Technical Habilities</h2>
-                <img id="logo" src="./linguagens.png" alt="linguagens de programação">
+                <h2>Habilidades Técnicas</h2>
+                <img id="logo" src="./assets/linguagens.png" alt="linguagens de programação">
                 <div><p class="p2"><a href="#">Confira meu CV</a></p></div>
             </div>
         </section>
