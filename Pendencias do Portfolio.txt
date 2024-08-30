@@ -7,3 +7,4 @@ Correções:
 
 - Aba Contato -> alinhar texto das redes sociais; ver pq o zoom deixa a tela estranha. 
 -> adicionar opção de baixar currículo;
+-> adicionar efeito nos botões.
