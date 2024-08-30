@@ -108,6 +108,9 @@
             padding-left: 40px;
         }
 
+
+        /*efeitos, transições*/
+
         .background {
             background: linear-gradient(300deg, #004aad, #ff52e9);
             background-size: 180% 180%;
@@ -131,6 +134,14 @@
             100% {
                 background-position: 0% 50%;
             }
+        }
+
+        .logos img {
+            transition: transform 0.3s ease; 
+        }
+
+        .logos img:hover {
+            transform: scale(1.2); 
         }
 
         /* Responsividade */
@@ -213,14 +224,16 @@
                 font-size: 1.5em;
             }
             .logos {
-                gap: 60px;
+                gap: 15px;
             }
             .redes {
-                font-size: 2em;
+                font-size: 1.7em;
             }
             #linkedin, #email, #whats {
                 padding: 24px;
             }
+
+
         }
 
 
@@ -241,9 +254,9 @@
         <h2><b>Como você prefere entrar em contato?</b></h2>
 
         <div class="logos">
-            <div><a href="https://www.linkedin.com/in/evilly-nascimento-costa/"><img id="linkedin" src="./linkedin.png" alt=""></a></div>
-            <div><a href="mailto:evillynascicosta@gmail.com"><img id="email" src="./email.png" alt=""></a></div>
-            <div><a href=""><img id="whats" src="./whats.png" alt=""></a></div>
+            <div><a href="https://www.linkedin.com/in/evilly-nascimento-costa/"><img id="linkedin" src="./assets/linkedin.png" alt="logo do linkedin"></a></div>
+            <div><a href="mailto:evillynascicosta@gmail.com"><img id="email" src="./assets/email.png" alt="logo de email"></a></div>
+            <div><a href=""><img id="whats" src="./assets/whats.png" alt="logo do WhatsApp"></a></div>
         </div>
 
         <div class="redes">
